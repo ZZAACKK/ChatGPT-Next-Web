@@ -57,7 +57,7 @@ import {
 
 import dynamic from "next/dynamic";
 
-import { ChatControllerPool } from "../client/controller";
+import { ChatControllerPool } from "../client/common/controller";
 import { Prompt, usePromptStore } from "../store/prompt";
 import Locale from "../locales";
 
